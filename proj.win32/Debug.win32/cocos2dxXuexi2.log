@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/10/10 15:15:14。
+     1>项目“F:\CocosProject\cocos2dxXuexi2\proj.win32\cocos2dxXuexi2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\audio\include" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\extensions" /I..\Classes /I.. /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt LayerGameMemoryCard.cpp
+         LayerGameMemoryCard.cpp
+     1>f:\cocosproject\cocos2dxxuexi2\proj.win32\layergamememorycard.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cocosproject\cocos2dxxuexi2\proj.win32\layergamememorycard.cpp(121): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 d:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159) : 参见“cocos2d::Node::setZOrder”的声明
+                 d:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159) : 参见“cocos2d::Node::setZOrder”的声明
+     1>f:\cocosproject\cocos2dxxuexi2\proj.win32\layergamememorycard.cpp(133): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+                 d:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159) : 参见“cocos2d::Node::setZOrder”的声明
+                 d:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159) : 参见“cocos2d::Node::setZOrder”的声明
+       PreLinkEvent:
+         if not exist "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\" mkdir "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\Cocos\Cocos2d-x\cocos2d-x-3.10\prebuilt\win32\*.*" "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\cocos2dxXuexi2.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\ /LIBPATH:F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\cocos2dxXuexi2.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\cocos2dxXuexi2.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AnchorPoint.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\LayerSprite.obj
+         Debug.win32\MyLayer.obj
+         Debug.win32\BatchNodeTest.obj
+         Debug.win32\CardItem.obj
+         Debug.win32\FrameCacheTest.obj
+         Debug.win32\LabelTest.obj
+         Debug.win32\LayerColor.obj
+         Debug.win32\LayerGameMemoryCard.obj
+         Debug.win32\LayerStart.obj
+         Debug.win32\main.obj
+         Debug.win32\MemoryContralTest.obj
+         Debug.win32\ScheduleTest.obj
+         Debug.win32\TouchTest.obj
+         cocos2dxXuexi2.vcxproj -> F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\cocos2dxXuexi2.exe
+       CustomBuildStep:
+         if not exist "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\" mkdir "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\"
+         xcopy "F:\CocosProject\cocos2dxXuexi2\proj.win32\..\Resources" "F:\CocosProject\cocos2dxXuexi2\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         复制了 0 个文件
+     1>已完成生成项目“F:\CocosProject\cocos2dxXuexi2\proj.win32\cocos2dxXuexi2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.62

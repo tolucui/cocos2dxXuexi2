@@ -1,0 +1,11 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#ignore files build by Visual Studio
+*.obj
+*.exe
+
+#ignore Android SDK, NDK, Eclipse plugin and ANT files
+libs/
+bin/
+obj/
+assets/
